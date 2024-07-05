@@ -107,4 +107,8 @@ Think of it this way:
   - Virtualization has helped improve efficiency, but cloud computing offers more possibilities.
   - Companies are re-evaluating their data center use in light of cloud options.
   - The best approach considers both traditional data centers and various cloud environments.
+ 
+### Evolution of the Data Centre into a Private Cloud
+- It organizations found its more effiecient and eefective to creare private cloud services for developers to create new applications andservices.
+
 </details>
