@@ -2,7 +2,7 @@
 
 
 <details>
-<summary> Cloud Computing </summary>
+<summary> Charpter 1 : Cloud Computing </summary>
 <br>
 
 ## Understanding the cloud
@@ -111,4 +111,121 @@ Think of it this way:
 ### Evolution of the Data Centre into a Private Cloud
 - It organizations found its more effiecient and eefective to creare private cloud services for developers to create new applications andservices.
 
+</details>
+
+
+
+<details>
+<summary> Charpter 2 : Embracing the Business Imperative </summary>
+<br>
+
+## Escaping the IT Legacy Trap
+
+
+## Preparing for cloud
+
+## Building for Innovation
+- The cloud is like a bridge that connects companies with their partners, suppliers, and customers. This is important because success depends on good communication and working together.
+  - Benefits of better connections:
+    - Supply chains work smoother when everyone shares information.
+    - Companies can quickly test new ideas with partners without spending a lot of money.
+  - The cloud makes connections easier:
+    - Standard tools (APIs) help connect different systems together.
+    - Companies don't need to build everything from scratch anymore.
+
+## The business imperatives
+- The business world used to move slowly, with companies building systems that lasted for years. Now, things are different because of the cloud:
+  - Startups can use cloud services to quickly build new features and compete with established businesses.
+  - Established businesses need to keep their technology up-to-date (cloud strategy) to avoid losing customers to these quicker competitors.
+  - This means working together across the company to decide what to move to the cloud and what to keep in-house.
+ 
+## Optimizing your existing business
+
+## Morden development and deployment strategies
+- Established businesses need a new approach to software development to keep up with the fast-paced cloud world. Here's what they can do:
+  - DevOps: This combines development and deployment into one thing.
+    Focus on customer needs: Develop features that customers actually want and can use easily.
+  - Be flexible: Make applications that can adapt to change and work with other businesses' tools.
+  - Fast updates: Release new features quickly, not just in big batches every few months.
+
+## 
+</details>
+
+<details>
+<summary> Charpter 3 : Cloud architecture considerations </summary>
+<br>
+
+## Type of constituents 
+- Two constituents that are part of cloud ecosystem :
+  - Cloud consumers use services offered by others (like renting computing power). They just need to pick the right service and connect it to what they need.
+  - Cloud service providers create and offer cloud services (like your company offering a photo storage app). They need to design the entire system and make sure it works well for all their customers.
+
+- The NIST Cloud Reference Model illustrates how these different cloud services and users fit together to support businesses. It shows that both cloud consumers and cloud service providers are crucial parts of the cloud ecosystem. The model emphasizes the importance of managing and orchestrating services so they work together seamlessly, whether they're used internally or provided commercially to customers.
+
+## Planning for deployment
+
+## Navigating the choices in a hybrid world
+- The best cloud strategy uses a mix of different services (hybrid cloud) to fit your specific needs. Here's how to choose:
+  - Think about your business needs first. What features are most important (speed, uptime, ease of use)?
+  - Match those needs to the cloud service. Some services are better for specific needs. For instance, if you need super-fast performance, you might choose a private cloud service.
+  - Consider how different services will work together. Some services need to connect with each other, while others can be separate.
+  - The goal is to create a system that perfectly fits your customer needs.
+ 
+## Optimizing for workloads
+- One of the key ideas behind hybrid cloud design is being able to move jobs (workloads) around to different places (environments). This helps make sure everything runs smoothly for your customers. Here's how it works:
+  - Different cloud environments (public, private) need to be able to talk to each other (federation). This is like having a common language between different computer systems.
+  -Even if they aren't directly connected, there needs to be a way to easily access data and services across these different cloud locations. This way, jobs can be moved around to wherever they work best.
+
+## Supporting a dynamic life cycle
+- The cloud is different from traditional computer systems because it's designed to be flexible and constantly changing. Here's how:
+  - Focus on services, not separate tools: The cloud treats everything like services that can be connected together. This makes it easier to build and change applications.
+  - Designed for change: The cloud can handle growing numbers of users, new applications, and different workloads.
+  - Faster development and deployment: By connecting development and deployment in the cloud, things can move quicker and smoother.
+  - Easier to add new features or users: Adding more capacity or users (like through an acquisition) is simpler in the cloud.
+  - Security as a service: Security updates and changes are easier to manage in the cloud.
+- To take advantage of this flexibility, consider these things when planning your cloud environment:
+  - Break down separate systems into services: This makes it easier to connect them and make changes.
+  - Avoid creating connections that limit future options: Keep things flexible so you can add new cloud services later.
+  - Focus on performance for a good customer experience: Make sure everything runs well for the people using your cloud applications.
+  - Create a secure and reliable environment: Your cloud system should be safe and stable in the long run.
+
+
+</details>
+
+<details>
+<summary> Charpter 4 : Managing a Hybrid and Multicloud Environment </summary>
+<br>
+
+## Managing SaaS Aplicatrions
+- Businesses are using more and more software from the internet (SaaS) but this can be a challenge for IT departments to manage. Here's why:
+  - Easy to sign up for: Anyone can start using a SaaS application, even if it's not the best choice for the company. This can lead to security risks and a lack of control.
+  - Not all SaaS applications are created equal: Some are designed for businesses and offer features for IT to track and manage their use. Others are simpler and might not be secure or connect well with other systems.
+- For these reasons, it's important for IT to have some oversight over SaaS applications:
+  - Shadow IT: In the past, business units might have used software without IT knowing (shadow IT). The cloud makes this easier to do.
+  - Working together: The best solution is for IT and business units to work together. IT can create a "library" of approved SaaS applications that are secure and meet business needs.
+  - Employee self-service: Employees can then choose the tools they need from this library, instead of finding their own.
+
+ 
+  
+</details>
+
+<details>
+<summary> Charpter 1 : Defining Data Governance </summary>
+<br>
+ 
+  
+</details>
+
+<details>
+<summary> Charpter 1 : Defining Data Governance </summary>
+<br>
+ 
+  
+</details>
+
+<details>
+<summary> Charpter 1 : Defining Data Governance </summary>
+<br>
+ 
+  
 </details>
