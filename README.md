@@ -271,19 +271,69 @@ Think of it this way:
   - Monitor resource dashboards: If the public cloud resources you're using have dashboards or other monitoring tools, you can use those to track performance.
   - Monitor the applications themselves: The most accurate way to monitor performance is to track how the resources are actually performing within your applications. This can be done with minimal impact on the application's performance.
  
-
-</details>
-
-<details>
-<summary> Charpter 1 : Defining Data Governance </summary>
-<br>
+## Monitoring apllications and services
+- Cloud applications can collect a lot of data about how users interact with them. This data is useful for different teams:
+  - Support: Support staff can use this data to see what users are doing and identify common problems. This helps them give better advice to users who call for help.
+  - Development and IT: This data can help developers and IT staff find bugs, improve the user interface, and make the application run more smoothly.
  
-  
+ - All this data can be overwhelming, so businesses often create dashboards. Dashboards are like visual summaries that show key information in an easy-to-understand way. Different dashboards can be created for different teams, showing them the data they care about most.
+
+## Managing external services
+- Multiple services:
+  - storing rarely used data
+  - Others might be complex applications you develop and run in the public cloud.
+
+### DevOps and Deployment to Public Clouds:
+- DevOps is a popular approach to developing software for the cloud. It combines development and operations teams for faster development and deployment.
+- This also helps create more robust applications because developers are more involved in how the application runs.
+- Once deployed, DevOps engineers continue to monitor the application and can quickly fix problems or redeploy the application with updates.
+
+### Monitoring External Systems (For Applications Used by Other Companies):
+- Since you can't easily ask external customers questions about how your application is working, it's even more important to monitor its performance.
+- You also need to keep external customers informed about any issues, since they may be less patient with problems than internal users.
+
+### Building Public Cloud Applications:
+- Public cloud applications need to be extra reliable and available, because there's less tolerance for outages and problems. Here are some things to consider:
+  - Upgrades: Upgrades should be done without taking the application offline and interrupting users.
+  - Failovers: The application should be designed to handle failures with minimal disruption to users. Data loss should be avoided completely.
+ 
+ ## The future of multicloud management
+
 </details>
 
 <details>
-<summary> Charpter 1 : Defining Data Governance </summary>
+<summary> Charpter 5 : Standards in a multicloud world </summary>
 <br>
+
+ ## What are standards?
+ - Standards are like agreed-upon ways of doing things. They are important because they:
+   - Allow different systems to work together smoothly.
+   - Reduce costs by creating competition between different vendors.
+   - Give users more choices.
+ - Standards also help with security and prevent vendor lock-in (being stuck with one provider).
+
+### Evolution of standards
+- Standards can be created by different groups:
+  - International organizations (ISO) - These take a long time to create standards but are very official.
+  - Industry consortiums (The Apache Software Foundation) - These are groups of companies that work together to create standards for specific industries.
+  - Ad hoc groups (open-source projects) - These are less formal groups that can create standards quickly but may not be as widely accepted.
+  - De facto standards - These become standards simply because they are widely used.
+ 
+## Categories of cloud-related standards
+
+## The impact of standards on the multicloud
+- Multicloud security: Standards help reduce security risks in complex, multicloud environments where data and applications are spread across different providers.
+- Flexibility: Standards allow you to easily move your cloud resources (applications, data) between different cloud providers. This gives you more flexibility and avoids vendor lock-in (being stuck with one provider).
+- Integration: Standards make it easier to connect your on-premises data center with private and public cloud environments. This saves time and money compared to dealing with proprietary systems from each cloud provider.
+- Choice: By avoiding vendor lock-in, standards give you more choices when selecting cloud providers.
+</details>
+
+<details>
+<summary> Charpter 6 : Cloud services </summary>
+<br>
+
+## The Importance of modularity
+
  
   
 </details>
