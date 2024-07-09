@@ -1,4 +1,4 @@
-# Cloud-Computing
+ # Cloud-Computing
 
 
 <details>
@@ -204,9 +204,74 @@ Think of it this way:
   - Shadow IT: In the past, business units might have used software without IT knowing (shadow IT). The cloud makes this easier to do.
   - Working together: The best solution is for IT and business units to work together. IT can create a "library" of approved SaaS applications that are secure and meet business needs.
   - Employee self-service: Employees can then choose the tools they need from this library, instead of finding their own.
+- Even though IT departments aren't responsible for fixing SaaS application outages, they are still on the hook for making sure users have a good experience. Here's why:
+  - Users don't care who's responsible: If a SaaS application goes down, users will blame IT regardless of who caused the problem.
+  - IT as the advocate: IT's job is to act on behalf of the users and work with the SaaS vendor to get the problem fixed quickly.
+- Cloud Access Management (CAM) is like a gatekeeper for your cloud applications. It helps control who can access what, and how:
+  - Permissions for users: CAM can give specific users access to certain applications, and limit access to others.
+  - Data access control: CAM can also control what information users can see within those applications. For example, in an HR app, CAM could allow employees to see their own information, but not other people's.
+  - Benefits for IT:
+    - IT can track which apps are being used and by how many people. This helps them negotiate better deals with vendors.
+    - IT can also see if there are opportunities to improve by using different tools or integrating existing ones.
 
+## Managing Ecternal cloud resources
+- Businesses use a lot of different cloud resources, like virtual machines, storage, and databases. These resources need to be managed carefully.Here's how:
+  - Who's responsible? The development or IT team is usually in charge of managing cloud resources. They know what's needed to build the applications the company uses.
+  - Visibility and control: Just like with SaaS applications, it's important to be able to see and control how cloud resources are being used.
+  - Choosing the right resources: It's important to pick the best cloud resources for the job. Once you've chosen one and invested time in learning it, you shouldn't switch to something else unless absolutely necessary.
+  - The process: There's a general process for choosing, testing, and using cloud resources:
+    1. Figure out what your application needs.
+    2. Look for matching resources from cloud providers your company already uses. If nothing works, look at other providers.
+    3. Test the resources to make sure they work well.
+    4. If the tests go well, get a license to use the resource.
+    5. Teach everyone who needs to know about the new resource.
+    6. Regularly review the resources you're using to make sure they're still the best choice.
+- Self-service: The ideal situation is to have a catalog of approved resources that developers can choose from. This makes it easier for them to find what they need and reduces the risk of them using unapproved resources. The key is to make sure this catalog is up-to-date and has everything developers need.
+
+## Service level agreeements (SLAs)
+- Cloud services come with agreements called SLAs (Service Level Agreements) that say what the service provider will do and what you,the customer, are responsible for. These agreements cover things like how available the service will be, how fast it will respond, and how secure it will be.
+  - SLAs don't cover everything: The provider might not be responsible for outages caused by things like floods or problems with other companies' equipment.
+  - SLAs may not cover everything you lose: An SLA might just give you money back for the time the service was down, but it might not cover lost business. You might need separate insurance for that.
  
-  
+### Addressing poor cloud and computing behaviors
+- Even though cloud providers try to make their systems secure, people can still do things that put information at risk. Here are a few examples:
+  - Weak passwords: Using passwords that are easy to guess makes it easier for hackers to steal information or damage systems.
+  - Unsecured personal devices: Using personal devices for work can be risky if they are not properly secured.
+  - Sharing information on social media
+
+## Managing internal cloud resources
+
+## Managing a hydrid cloud environment
+- Businesses are using a mix of private (controlled by the company) and public clouds for their internal needs. This gives them more flexibility, scalability, and performance.
+- Even though public clouds are secure, companies with private or hybrid clouds might have even stricter security requirements. This means carefully choosing and approving resources.
+- In a private or hybrid cloud, companies can create a "self-service" library of approved resources that employees can easily access for their work. These resources will be secure and meet the company's specific needs.
+
+### Understanding the role of internal SLAs
+- SLAs (Service Level Agreements):
+  - SLAs are agreements that define what level of service (performance, uptime, etc.) users can expect from cloud resources. Having clear SLAs helps avoid confusion and ensures everyone is on the same page.
+  - Who's responsible for monitoring SLAs depends on whether you're using a public or private cloud:
+    - Public cloud: The public cloud provider is responsible, but they might have many customers and take longer to respond to issues.
+    - Private cloud: The company's IT department is responsible for monitoring SLAs since they are the "cloud provider" for their own employees.
+
+## Managing Internal Services
+- Users and Expectations:
+  - Businesses are moving more applications to the cloud (private, public, or hybrid).
+  - Users don't care where the applications run, they just expect them to be reliable, secure, and well-supported, just like any other business application.
+
+### Supporting cloud costomers
+- Support for these cloud applications can come from the IT department or a company call center.
+- Whoever provides support needs to have easy access to the cloud environment to diagnose and fix problems quickly.
+- For applications developed in-house, the development team should work closely with the support team to create user-friendly applications with fewer problems.
+- This can help reduce the number of support calls.
+
+### Monitoring Resources imported from Public Cloud
+- If you're using a hybrid cloud (mix of private and public cloud), you need to monitor the performance of the public cloud resources you're using.
+- There are a few ways to do this:
+  - Run test software: You can run test software in the public cloud to see how well the resources perform. This might not perfectly reflect how your applications will perform, but it can give you a general idea.
+  - Monitor resource dashboards: If the public cloud resources you're using have dashboards or other monitoring tools, you can use those to track performance.
+  - Monitor the applications themselves: The most accurate way to monitor performance is to track how the resources are actually performing within your applications. This can be done with minimal impact on the application's performance.
+ 
+
 </details>
 
 <details>
