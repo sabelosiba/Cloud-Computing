@@ -333,10 +333,65 @@ Think of it this way:
 <br>
 
 ## The Importance of modularity
+- Cloud applications should be built from independent, self-contained pieces (like building blocks) rather than one giant program.
+- Benefits of modularity:
+  - Easier to develop and update by small teams
+  - More flexible, cost and scalable
+  - Easier to move between different cloud providers
+- These modular pieces are called "services" and they can be reused in different applications.
+- Organizations aiming for robust, flexible systems and faster deployment are adopting a service-oriented mindset. This shift is crucial for leveraging Platform as a Service (PaaS) environments, where applications interact primarily through services.
+- Containerizing applications has led to simpler ways to manage workloads in PaaS setups. This includes handling APIs more effectively, which are key for defining and accessing services within applications.
+- Standardization is key: Since cloud services can run on different cloud providers, there needs to be some consistency across them.
+- Cloud native is best: The best cloud applications are designed specifically for the cloud environment to take full advantage of its flexibility, agility and modularity.
 
- 
-  
+ ## Explaining microservices
+ - cloud-enable appliacations are designed:
+   - modular, distributed, deployed and and managed automatically.
+ - Microservices are tiny, independent programs that each perform a specific task within a larger application.
+- Think of them as specialized tools in a toolbox, each with a specific job.
+-Microservices communicate with each other using clear instructions (APIs).
+- Benefits of microservices:
+  - Faster development: Smaller teams can work on microservices independently.
+  - Easier updates: Changes to one microservice won't affect others.
+  - Scalability: You can easily add or remove microservices as needed.
+  - Reusable code: Microservices can be used in different applications.
+
+ ### The imperative to manage microservices
+ - Microservices are designed to be packaged in containers, which abstract applications from their operating environments. Orchestration services manage these containers, handling both the processes and logic, as well as data services. They decide how and where logic is deployed and managed, reducing concerns about versioning and application-specific configurations.
+
+
+## Containers
+- Docker, CRI-O, Containerd, and frakti are four of the most common container run times.
+- It holds everything an application needs to run (code, libraries, settings).
+- This "container" can be shipped anywhere (different cloud providers, computers) and still work the same way.
+- container runtimes package up your code along with everything it needs to run (like libraries, settings). This is called encapsulation.
+- Benefits for developers:
+  - No more worrying about different computer setups or configurations.
+  - Code written on a laptop will run the same way in the cloud.
+  - Developers can focus on writing the application itself, not wrestling with different environments.
+  - Container runtimes (like Docker) are the tools that manage these "containers."
+
+## Defining cloud native applications
+- Cloud-native applications approach:
+  - Microservices: They are built from tiny, independent programs that each perform a specific task.
+  - Containers: Each microservice is packaged in a container, like a shipping container, that holds everything it needs to run. This makes them portable and easy to move around.
+  - Orchestration: A tool manages all the microservices, making sure they work together smoothly.
+  - Continuous delivery: Updates to the application can be made frequently and automatically.
+- The idea of cloud native was codified by The Cloud Native Computing Foundation (CNCF), an organization founded in 2015 under the auspices of the Linux Foundation.
+- The CNCF definition of cloud native:
+  - Containerized: The application is broken down into small, independent pieces that are easy to move around.
+  - Dynamically managed: These pieces can be easily started, stopped, and scaled up or down as needed.
+  - Microservices-oriented: The application is built from small, independent services that work together.
+
+
 </details>
+
+
+
+
+
+
+
 
 <details>
 <summary> Charpter 1 : Defining Data Governance </summary>
