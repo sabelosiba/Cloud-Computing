@@ -383,7 +383,32 @@ Think of it this way:
   - Dynamically managed: These pieces can be easily started, stopped, and scaled up or down as needed.
   - Microservices-oriented: The application is built from small, independent services that work together.
 
+- Virtual Machines (VMs):
+  - These were the original way to create cloud services. They act like separate computers running on a single system, but they can be slow and complex to manage.
+- Cloud-native applications are the future of cloud computing. They are faster, more flexible, and easier to manage than traditional virtual machines.
 
+### Differentiating Cloud native applications
+- Beyond cost savings: While saving money is nice, cloud-native applications are about more than just that. They help businesses:
+  - Build applications faster: Get new features and functionality to customers quicker.
+  - Be more competitive: Offer unique value propositions to stand out from the competition.
+- Resilient and predictable: Cloud-native applications are built to handle changes and unexpected situations.
+- Scalable and performant: They can easily grow or shrink as needed and run smoothly.
+- Easier to develop and deploy: Developers can focus on writing the application itself, not wrestling with the underlying infrastructure.
+- Automatic and self-balancing: Cloud-native applications can manage their own resources and prevent outages.
+
+## Communicationg using APIs
+- Microservices need to talk to each other: Just like people working together need to communicate, different parts of a cloud application (microservices) need a way to talk to each other.
+- APIs are the language: APIs are like a common language that microservices can use to exchange information and work together.
+- APIs in different cloud layers:
+  - They are used to connect applications and resources within a single cloud provider (IaaS and SaaS).
+  - They are even more important in connecting applications across different cloud providers (multicloud).
+ 
+ - Think of APIs like Lego instructions: Just like Legos have instructions that tell you how to put the pieces together, APIs tell microservices how to communicate and exchange information.
+- Google Maps publishes an API that allows organizations to embed a Google Map into their own web and mobile applications or onto a website.
+
+
+## Setting the stage for cloud-Enables applications
+- 
 </details>
 
 
