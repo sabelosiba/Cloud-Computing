@@ -422,5 +422,39 @@ Think of it this way:
 <summary> Charpter 1 : Defining Data Governance </summary>
 <br>
  
-  
+  Chapter 1: Cloud Computing
+
+    Can you explain the difference between the three main cloud deployment models (IaaS, PaaS, SaaS) and give an example of when you might use each one?
+    What are some of the benefits of using cloud computing for businesses?
+    How can companies ensure they are choosing a secure and reliable cloud provider?
+
+Chapter 2: Embracing the Business Imperative
+
+    Why is it important for businesses to consider a cloud strategy in today's world?
+    What are some of the challenges that businesses might face when migrating to the cloud?
+    How can businesses ensure that their cloud strategy aligns with their overall business goals?
+
+Chapter 3: Cloud Architecture Considerations
+
+    What are some of the key factors to consider when designing a hybrid cloud architecture?
+    How can businesses ensure that their cloud applications are flexible and scalable to meet changing needs?
+    What are some of the security considerations that businesses need to address when using cloud computing?
+
+Chapter 4: Managing a Hybrid and Multicloud Environment
+
+    How can businesses ensure that they are effectively managing their SaaS applications?
+    What are some of the challenges associated with monitoring and managing resources in a hybrid cloud environment?
+    How can businesses ensure that their cloud deployments meet the required service levels (SLAs)?
+
+Chapter 5: Standards in a Multicloud World
+
+    Why are standards important for cloud computing, especially in a multicloud environment?
+    What are some of the different types of cloud standards, and who creates them?
+    How can standards help businesses avoid vendor lock-in and increase their flexibility in the cloud?
+
+Chapter 6: Cloud Services
+
+    What are the benefits of building cloud-native applications using microservices and containers?
+    How do APIs play a role in communication between different parts of a cloud application?
+    What are some of the key characteristics that differentiate cloud-native applications from traditional virtual machines?
 </details>
