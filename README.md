@@ -46,6 +46,16 @@
   2. Private Cloud: Services are exclusively provided to a single organization, which owns and manages its own cloud infrastructure.
   3. Hybrid Cloud: This combines elements of both public and private clouds. Organizations can use a mix of their own private cloud resources and public cloud services from CSPs, or even community cloud deployments, which are shared among organizations with common interests or requirements.
 
+
+### Types of cloud computing
+- two wide categories one being deployment model and the other one beingservers model
+- deployment model:
+  - public : example bus - which is accessible to anyone I get in and I pay for the seat and I pay for the time cost is very less. public Cloud I pay only for the resource that I use and I pay for how long I use it if I use less Ipay less if I use more I I pay more.
+  - private : example own car - is like buying your own car and using it for commuting purpose it is all owned only by me I pay all upfront the cost here is very huge.
+  - hybrid : example private taxi(uber) - i want the comfort of the own car and want only to pay for the time that I use the service I can rent a car.
+- service model:
+  - 
+
 ![image](https://github.com/sabelosiba/Cloud-Computing/assets/88839789/eaac594a-df1d-44c9-bb12-90254675fdb9)
 - Imagine a company toolbox with many different tools, each being really good for a specific job. A multicloud environment is like that toolbox, but instead of physical tools, it has different cloud services from various companies.
 - This way, different teams in the company can pick the best service for their needs, and the company itself has more choices and flexibility.
