@@ -408,7 +408,27 @@ Think of it this way:
 
 
 ## Setting the stage for cloud-Enables applications
-- 
+1. Set your goals:
+   - What do you want to achieve by moving to the cloud?
+   - Involve everyone from business leaders to IT and even customers in planning.
+
+2. Build your team:
+   - You'll need developers, security experts, and operations people to work together (DevSecOps approach).
+
+3. Decide what to move first:
+   - Consider both existing applications and new ones.
+   - Focus on the most important applications that will give you the most benefit.
+   - Team assess and prioritize workloads
+
+4. Break down your applications:
+   - Think about how your applications work and separate them into smaller, independent pieces (microservices).
+
+5. Choose a platform for your containers:
+   - There are many options available, some free and some with extra features. Pick the one that suits your needs.
+
+6. Operations in the cloud:
+   - Running cloud applications requires different skills than traditional applications.
+   - Tools like Kubernetes can help manage your cloud-native applications.
 </details>
 
 
@@ -457,4 +477,13 @@ Chapter 6: Cloud Services
     What are the benefits of building cloud-native applications using microservices and containers?
     How do APIs play a role in communication between different parts of a cloud application?
     What are some of the key characteristics that differentiate cloud-native applications from traditional virtual machines?
+</details>
+
+
+# Microsoft Azure
+
+<details>
+<summary> Charpter 1 : Fundamentals </summary>
+<br>
+ 
 </details>
