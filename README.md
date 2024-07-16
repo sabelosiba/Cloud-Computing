@@ -493,7 +493,45 @@ Chapter 6: Cloud Services
 # Microsoft Azure
 
 <details>
-<summary> Charpter 1 : Fundamentals </summary>
+<summary> Charpter 1 : Microsoft Azure </summary>
 <br>
+
+ - Azure is a public cloud provider, but also offer private, hybrid and ,ulti-cloud solutions to users.
+ - cloud services in azure are designed to help build new and innovatice cloud solutions.
+ - Also allows to build, develop, manage and run resources like serves, databases, storage or applications in multiple cloud environments.
+ - Azure offers services in various categories, including computing, networking, storage, databases.
+
+### Benefits of a cloud provider
+- Scalability
+- elasticity
+- flexibility
+- cost management tools
+- high level cloud security
+
+# #2 Azure Portal
+## Features of Azure Portal
+- use command line tools and cloud shell for quick creation and deployments
+- configure and manage privacy , data and security, policies and compliance which is vital for the organizations govarnance.
+- Azure Active Directory (Azure AD) as a great tool for the management of identity, access and permissions to resources.
+
+# #3 Microsoft Azure Services
+## Compute Services in Azure
+- compute service hosted in Azure provide computing resources like operationg systems, networking, disks, processors and memory.
+- The computing resources are quickly and on-demand by users
+- An Application can have many wokrloads that need more than one computing device.
+- Azure has more than 25 computing services available.
+- The Azure compute services enable us to build web and mobile applications, deploy and manage virtual machines, build apps in containers in the cloud and create batch jobs.
+
+  ![image](https://github.com/user-attachments/assets/3b8d13f0-f900-44da-b0a4-9a93c3b1ce2b)
+
+
+## Networking Services in Azure
+- Networking in the cloud is important in all aspects of cloud hosting. Networking services help secure both private and public cloud infrastructure.
+- Users can customize their cloud networking setup and manage their network resources on demand.
+
+## Core Azure Storage services
+- provide the benefits of high availability, durability, security, accessiblity and manageability.
+- 
+
  
 </details>
